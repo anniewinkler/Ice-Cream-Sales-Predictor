@@ -1,14 +1,11 @@
-# Ice Cream Sales Predictor (version 2: temperature and precipitation)
+# Ice Cream Sales Predictor (temperature & precipitation)
 
 Pick a city and a date. The app asks a free weather API for the forecast high and the total
 precipitation (rain + showers + snow), gives both to a trained model, and shows the predicted
 number of cones sold, with a short business message.
 
-## What changed from version 1
-- The model now has two predictors: temperature and precipitation (before, temperature only).
-- Philadelphia was added to the list of cities.
+- The model has two predictors: temperature and precipitation
 - The app shows the forecast precipitation and warns when it is more than the model learned from.
-- The date picker now stops at 15 days ahead (the forecast covers 16 days, including today).
 
 ## Files
 - `app.py`: the Streamlit app
