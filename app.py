@@ -13,6 +13,10 @@ CITIES = {
     "Chicago": (41.88, -87.63),
     "Miami": (25.76, -80.19),
     "Los Angeles": (34.05, -118.24),
+    "Rochester": (43.15, 77.60),
+    "Portland": (45.51, 122.67),
+    "Cleveland": (41.49, 81.69),
+    "Seattle": (47.60, 122.33)
 }
 LOW_TEMP, HIGH_TEMP = 50, 100        # the temperatures (F) the model learned from
 MAX_PRECIP = 2.0                     # the most precipitation (inches per day) the model learned from
