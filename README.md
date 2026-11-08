@@ -29,8 +29,7 @@ about 5 cones and each extra inch of precipitation removes about 60. Replace it 
 trained on real data to use this for a real business.
 
 ## Cities
-Pittsburgh, New York, Philadelphia, Chicago, Miami, Los Angeles. To add another city, add its
-name and (latitude, longitude) to the `CITIES` dictionary in `app.py`.
+Pittsburgh, New York, Philadelphia, Chicago, Miami, Los Angeles, Rochester, Portland, Cleveland, and Seattle.
 
 ## Run it online for free (no terminal)
 1. Put `app.py`, `model.pkl`, `requirements.txt` (and optionally `README.md`) in a public GitHub
